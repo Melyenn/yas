@@ -11,5 +11,10 @@ pipeline {
         echo 'Building...'
       }
     }
+    stage ('Dev') {
+      steps {
+        echo 'Developing...'
+      }
+    }
   }
 }
